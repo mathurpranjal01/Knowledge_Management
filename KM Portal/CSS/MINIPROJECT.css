@@ -1,0 +1,97 @@
+body
+{
+    background-attachment: fixed;
+}
+
+.one
+{
+    text-decoration:none;
+    color:black;
+    font-size:18;
+    font-family: Maiandra GD;
+}
+
+.two
+{
+    text-decoration:none;
+    color:white;
+    font-size:20;
+    font-family: Maiandra GD;
+}
+
+
+a:hover
+{
+    background-color:none;
+    color:red;
+    font-family: Maiandra GD;
+}
+
+a:active
+{
+    background-color:#666666;
+    color:#FFFFFF;
+    font-family: Maiandra GD;
+}
+
+h1
+{
+    font-family:Maiandra GD;
+    font-weight:800;
+    color:white;
+    text-align-last: center;
+}
+
+h2
+{
+    font-family: Maiandra GD;
+    color:black;
+}
+
+.link
+{
+    font-family: Maiandra GD;
+    color: black;
+}
+
+table
+{  
+    background-color:none;
+    font-family: Maiandra GD;
+    
+}
+
+marquee
+{
+    background-color:pink;
+    color:blue;
+    font-weight:800;
+    font-family: Maiandra GD;
+}
+
+p a
+{
+    color: red;
+    font-family: Maiandra GD;
+}
+table p
+{
+    background-color:black;
+    font-family: Maiandra GD;
+}
+p a:hover
+{
+    background-color:#CCFF66;
+    font-family: Maiandra GD;
+}
+
+p{
+    font-family: Maiandra GD;
+    font-size: 20;
+    color: white;
+}
+
+ul{
+    color: white;
+   
+}

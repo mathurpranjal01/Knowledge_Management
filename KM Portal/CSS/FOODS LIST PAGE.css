@@ -1,0 +1,40 @@
+a
+{
+    text-decoration:none;
+    color:white;
+    font-family:Maiandra GD;
+    font-size:20px;
+}
+
+p
+{
+    text-decoration:none;
+    color:white;
+    font-family:Maiandra GD;
+    font-size:20px;
+}
+    
+a:hover
+{   
+    color:red;
+}
+
+a:active
+{
+    color:brown;
+}
+
+h1
+{
+    font-family: Maiandra GD;
+    color:white;
+}
+
+ul
+{
+    color: white;
+}
+
+.one{
+    color: Black;
+}

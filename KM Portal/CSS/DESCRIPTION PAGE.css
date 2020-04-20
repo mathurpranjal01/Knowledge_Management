@@ -1,0 +1,52 @@
+body
+{
+    background-color:#999999;
+}
+
+
+p
+{
+    color:white;
+    font-family:Maiandra GD;
+    font-size: 20;
+}
+
+
+h1
+{
+    color:white;
+    font-family: Maiandra GD;
+}
+
+img
+{
+    border-radius:25px;
+}
+
+a
+{
+    text-decoration:none;
+    color:black;
+    font-size:18;
+    font-family: Maiandra GD;
+
+input
+{
+    border-radius:5px;
+    color:#FF00FF;
+}
+
+select
+{
+    color:#800000;
+}
+
+h4
+{
+    color:#FFFF00;
+}
+
+img {
+    border: 1px solid white; 
+    padding: 5px;
+  }

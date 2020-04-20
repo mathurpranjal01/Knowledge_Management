@@ -1,0 +1,90 @@
+<html>
+<head>
+<link href="CSS/DESCRIPTION PAGE.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("button").click(function(){
+            var favorite = [ ];
+	var x=0;
+            $.each($("input[name='1']:checked"), function(){            
+                favorite.push($(this).val());
+				
+            });
+			var n=favorite[1];
+			for(var i=0;i<favorite.length;i++)
+			{
+			y=favorite[i];
+				y=parseInt(y);
+				x=x+y;
+				}
+           
+			 alert("Total  amount is: " + x);
+			 
+			 document.getElementById("demo").innerHTML = "Total amount purchased " + x;
+        });
+    });
+</script>
+</head>
+<body>
+
+<center>
+<h1>Fill The Form To Get Dishes Delivery</h1>
+<br>
+<hr color="dark green">
+<table border="2" cellpadding="50px">
+<th>
+<form>
+Name:<input type="text" placeholder="Type Your Name"><br>
+<br>
+Email-ID:<input type="text" placeholder="Type Your Email-ID @gmail.com"><br>
+<br>
+Address:<input type="text" placeholder="Type Your Address"><br>
+<br>
+Phone number:<input type="text" placeholder="Enter Your Phone No."><br>
+<br>
+</th>
+</table>
+<br>
+<br>
+</center>
+<table><tr><th>
+<h4>East Indian Dishes:-</h4><th/><th>
+<h4>West Indian Dishes:-</h4><th/><th>
+<h4>North Indian Dishes:-</h4><th/><th>
+<h4>South Indian Dishes:-</h4><th/></tr>
+
+
+  <tr><td><input class="messageCheckbox" type="checkbox" name="1" value=25 id="1"> Aloo Phulkopir Dalna</td><td>25Rs</td><td><input class="messageCheckbox" type="checkbox" name="1" value=45 id="11"> Aloo Ka Bharta</td><td>45Rs</td><td><input class="messageCheckbox" type="checkbox" name="1" value=90 id="21">Mushroom masala</td><td>90Rs</td><td><input class="messageCheckbox" type="checkbox" name="1" value=25 id="31"> Idli</td><td>25Rs</td></tr>
+
+  <tr><td><input class="messageCheckbox" type="checkbox" name="1" value=30 id="2"> Begun Bhaja</td><td>30Rs</td><td><input class="messageCheckbox" type="checkbox" name="1" value=35 id="12">Bikaneri Chana Dal Paratha</td><td>35Rs</td><td><input class="messageCheckbox" type="checkbox" name="1" value=165 id="22"> Masala paratha</td><td>165Rs</td><td><input class="messageCheckbox" type="checkbox" name="1" value=50 id="32"> Red poha upma</td><td>50Rs</td></tr>
+
+  <tr><td><input class="messageCheckbox" type="checkbox" name="1" value=40 id="3"> Chanar Dalna </td><td>40Rs</td><td><input class="messageCheckbox" type="checkbox" name="1" value=55 id="13">Dahi Vada</td><td>55Rs</td><td><input class="messageCheckbox" type="checkbox" name="1" value=140 id="23"> Pahari aloo gutke</td><td>140Rs</td><td><input class="messageCheckbox" type="checkbox" name="1" value=65 id="33"> Coconut Sevai</td><td>65Rs</td></tr>
+
+  <tr><td><input class="messageCheckbox" type="checkbox" name="1" value=75 id="4" > Keema Matar</td><td>75Rs</td><td><input class="messageCheckbox" type="checkbox" name="1" value=95 id="14">Dal</td><td>95Rs</td><td><input class="messageCheckbox" type="checkbox" name="1" value=90 id="24"> Besan ladoo</td><td>90Rs</td><td><input class="messageCheckbox" type="checkbox" name="1" value=70 id="34"> Bellam Thalikalu</td><td>70Rs</td></tr>
+
+  <tr><td><input class="messageCheckbox" type="checkbox" name="1" value=40 id="5"> BKhasta Paratha</td><td>40Rs</td> <td><input class="messageCheckbox" type="checkbox" name="1" value=85 id="15">Daal Ke Paratha (Paratha)</td><td>85Rs</td><td><input class="messageCheckbox" type="checkbox" name="1" value=95 id="25"> Khoya matar paneer</td><td>95Rs</td><td><input class="messageCheckbox" type="checkbox" name="1" value=45 id="35"> Godhuma rava payasam</td><td>45Rs</td></tr>
+
+  <tr><td><input class="messageCheckbox" type="checkbox" name="1" value=50 id="6"> Simple Chicken Curry </td><td>50Rs</td><td><input class="messageCheckbox" type="checkbox" name="1" value=25 id="16">Dum Aloo</td><td>25Rs</td><td><input class="messageCheckbox" type="checkbox" name="1" value=65 id="26"> Boondi raita</td><td>65Rs</td><td><input class="messageCheckbox" type="checkbox" name="1" value=80 id="36"> Tiffin sambar</td><td>80Rs</td></tr>
+
+  <tr><td> <input class="messageCheckbox" type="checkbox" name="1" value=40 id="7"> hicken 65  </td><td>40Rs</td> <td><input class="messageCheckbox" type="checkbox" name="1" value=55 id="17">Missi Roti</td><td>55Rs</td><td><input class="messageCheckbox" type="checkbox" name="1" value=190 id="27"> Bhindi Masala</td><td>190Rs</td><td><input class="messageCheckbox" type="checkbox" name="1" value=95 id="37"> Neer Dosa</td><td>95Rs</td></tr>
+
+  <tr><td><input class="messageCheckbox" type="checkbox" name="1" value=25 id="8" > Keema Matar</td><td>25Rs</td><td><input class="messageCheckbox" type="checkbox" name="1" value=60 id="18">Pakodi Ki Karhi</td><td>60Rs</td><td><input class="messageCheckbox" type="checkbox" name="1" value=80 id="28"> Mango chutney</td><td>80Rs</td><td><input class="messageCheckbox" type="checkbox" name="1" value=50 id="38"> Mangalorean Egg Curry</td><td>50Rs</td></tr>
+
+  <tr><td><input class="messageCheckbox" type="checkbox" name="19" value=45 id="9"> Anglo Indian Meatball Curry</td><td>45Rs</td><td><input class="messageCheckbox" type="checkbox" name="1" value=80 id="1">Rajasthani Bati</td><td>80Rs</td><td><input class="messageCheckbox" type="checkbox" name="1" value=50 id="29"> Shahi Paneer</td><td>50Rs</td><td><input class="messageCheckbox" type="checkbox" name="1" value=95 id="39"> Puli Sevai ~ Tamarind flavored Idiyappam</td><td>95Rs</td></tr>
+
+  <tr><td><input class="messageCheckbox" type="checkbox" name="1" value=90 id="10"> Chicken Ghee Roast</td><td>90Rs</td><td><input class="messageCheckbox" type="checkbox" name="1" value=125 id="20">Rajasthani Churma</td><td>125Rs</td><td><input class="messageCheckbox" type="checkbox" name="1" value=75 id="30"> Banarasi Aloo Matar Sabji</td><td>75Rs</td><td><input class="messageCheckbox" type="checkbox" name="1" value=65 id="40"> Puliyodharai ~ Tamarind Rice</td><td>65Rs</td></tr></table>
+
+
+
+<label id="total"></label>
+<br>
+<button onclick="display()">Display name</button>
+<button type="button">Order</button>
+<input type="reset" value="Reset">
+</form>
+
+<p id="demo">
+</p>
+</body>
+</html>
