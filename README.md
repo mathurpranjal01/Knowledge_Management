@@ -12,3 +12,5 @@ Project Team:
 5.  Keerthana O. - PES1201802387
 
 Overview: We are preparing a Web Portal based on Indian Foods accpeted by Prof. Krupesha. Our Web Portal would be having the several number of dishes and if we select any, user can get the details of that particular dish. There is a page where user can get the recipe of a particular dish.
+
+Our Project Presentation is Evaluated by JayaShree mam on 20th April 2020.
